@@ -11,6 +11,13 @@ div{
 h2, h4{
   display: block;
 }
+nav {
+  text-align: right;
+}
+nav span {
+  display: inline-block;
+  padding: 30px 20px;
+}
 #mission {
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
@@ -31,4 +38,8 @@ h2, h4{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.footer{
+  text-align: left;
 }
