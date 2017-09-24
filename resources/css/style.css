@@ -42,9 +42,9 @@ nav span {
 }
 
 #locations {
-  background-image: url("../images/img-locations-background.jpg");
   height: 500px;
   padding-top: 70px;
+  background-image: url("../images/img-locations-background.jpg");
 }
 
 #contact {
@@ -82,20 +82,19 @@ nav span {
 .special_box span {
   font-weight: bold;
 }
-.flexbox_container.locations{
 
-}
 /*Having problems with the location box not showing margin or padding for whatever reason*/
 .location_box {
   opacity: 1.0;
   margin 5px 20px;
   padding 10px;
-  flex-basis: 280px;
+  flex-basis: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: black;
 }
+
 
 .flexbox_container{
   display: flex;
