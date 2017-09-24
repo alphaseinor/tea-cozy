@@ -3,9 +3,12 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  justify-content: center;
+  text-align: center;
 }
 div{
+  display: block;
+}
+h2, h4{
   display: block;
 }
 #mission {
