@@ -5,6 +5,7 @@ body {
   background-color: black;
   text-align: center;
   margin: 0;
+  width 100%
 }
 
 a{
@@ -81,10 +82,12 @@ nav span {
 .special_box span {
   font-weight: bold;
 }
+.flexbox_container.locations{
 
+}
 /*Having problems with the location box not showing margin or padding for whatever reason*/
 .location_box {
-  opacity: 1;
+  opacity: 1.0;
   margin 5px 20px;
   padding 10px;
   flex-basis: 280px;
@@ -92,11 +95,6 @@ nav span {
   flex-direction: column;
   justify-content: center;
   background-color: black;
-}
-
-.locations{
-  width: 1100px;
-  margin: auto;
 }
 
 .flexbox_container{
