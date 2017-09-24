@@ -33,7 +33,7 @@ nav span {
   width: 100%;
 }
 
-#store{
+#specials{
   height: 700px;
   width: 1000px;
   margin: auto;
@@ -82,15 +82,20 @@ nav span {
   font-weight: bold;
 }
 
+/*Having problems with the location box not showing margin or padding for whatever reason*/
 .location_box {
   opacity: 1;
+  margin 5px 20px;
+  padding 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: black;
-  padding 10px;
-  margin 5px 20px;
+}
 
+.locations{
+  width: 1100px;
+  margin: auto;
 }
 
 .flexbox_container{
