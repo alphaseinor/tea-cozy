@@ -4,6 +4,10 @@ body {
   color: seashell;
   background-color: black;
   text-align: center;
+  margin: 0;
+}
+a{
+  color: seashell;
 }
 div{
   display: block;
@@ -16,11 +20,12 @@ nav {
 }
 nav span {
   display: inline-block;
-  padding: 30px 20px;
+  padding: 20px 10px;
 }
 #mission {
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
+  padding-top: 69px;
 }
 #mission .mission_statement {
   margin: auto;
@@ -28,8 +33,21 @@ nav span {
   width: 100%;
 }
 
+.header {
+  width: 100%;
+  z-index: 1;
+  height: 69px;
+  border-bottom: 1px solid  seashell;
+  position: fixed;
+  background-color: black;
+}
+
+.header img{
+  height: 50px;
+  padding-left: 10px;
+}
+
 .top_section{
-  margin: auto;
   width: 1200px;
   opacity: 0.9
 }
