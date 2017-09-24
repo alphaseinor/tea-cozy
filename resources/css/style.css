@@ -1,3 +1,5 @@
+/*Tags*/
+
 body {
   font-family: helvetica;
   font-size: 22px;
@@ -21,6 +23,8 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
 }
+
+/*IDs */
 
 #mission {
   background-image: url("../images/img-mission-background.jpg");
@@ -50,6 +54,8 @@ nav span {
 #contact {
   height: 200px;
 }
+
+/*Classes */
 
 .header {
   width: 100%;
@@ -83,7 +89,6 @@ nav span {
   font-weight: bold;
 }
 
-/*Having problems with the location box not showing margin or padding for whatever reason*/
 .location_box {
   opacity: 1.0;
   margin 5px 20px;
@@ -94,7 +99,6 @@ nav span {
   justify-content: center;
   background-color: black;
 }
-
 
 .flexbox_container{
   display: flex;
