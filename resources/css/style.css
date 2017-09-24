@@ -10,9 +10,7 @@ a{
   color: seashell;
 }
 
-h2, h4{
-  display: block;
-}
+
 nav {
   text-align: right;
   flex-grow: 1;
@@ -30,6 +28,13 @@ nav span {
   margin: auto;
   background-color: black;
   width: 100%;
+}
+
+#store{
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
 }
 
 .header {
@@ -53,6 +58,15 @@ nav span {
   padding-top: 69px;
   width: 1200px;
   margin: auto;
+}
+
+.special_box img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+.special_box span {
+  font-weight: bold;
 }
 
 .flexbox_container{
